@@ -193,7 +193,7 @@ body,
 input,
 select,
 textarea {
-  color: #a2a2a2;
+  color: #686868;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -218,8 +218,8 @@ a:hover {
 
 strong,
 b {
-  color: #787878;
-  font-weight: 400;
+  color: #424242;
+  font-weight: 600;
 }
 
 em,
@@ -237,7 +237,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #787878;
+  color: #4e4d4d;
   font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0;
@@ -307,7 +307,7 @@ hr.major {
 
 blockquote {
   border-left: solid 6px #efefef;
-  font-style: italic;
+  /* font-style: italic; */
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 1.5em;
 }
@@ -2244,7 +2244,7 @@ input[type="radio"] + label:before {
 
 .image.inline {
   display: inline-block;
-  width: 100px;
+  height: 35px;
   margin-bottom: -3px;
   text-decoration: none;
 }
